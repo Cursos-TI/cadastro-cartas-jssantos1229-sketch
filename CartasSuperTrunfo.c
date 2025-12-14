@@ -2,24 +2,25 @@
 
 int main() {
 
-    char estado[50];
-    char codigo[5];
-    char cidade[50];
-    int populacao;
-    float area;
-    float pib;
-    int pontosTuristicos;
-    
-    printf("\nInsira os dados da primeira carta 1:\n");
+  printf("Desafio Trunfo\n");
+  printf("Novo Commit\n");
 
-    printf("Nome do estado: ");
-    scanf(" %[^\n]", estado);
+ char estado[50];
+ char codigo[5];
+ char cidade[50];
+  int populacao;
+ float area;
+ float pib;
+ int pontosTuristicos;
+ printf("\nInsira os dados da primeira carta 1:\n");
 
-    printf("Código da Carta (ex: A01): ");
-    scanf("%s", codigo);
+printf("Nome do estado: ");
+scanf(" %[^\n]", estado);
 
+printf("Código da Carta (ex: A01): ");
+scanf("%s", codigo);
     printf("Nome da Cidade: ");
-    scanf(" %[^\n]", cidade);
+    scanf(" %s", cidade);
 
     printf("População: ");
     scanf("%d", &populacao);
