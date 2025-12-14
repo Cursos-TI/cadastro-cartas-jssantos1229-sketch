@@ -9,7 +9,6 @@ int main() {
     float area;
     float pib;
     int pontosTuristicos;
-
     
     printf("\nInsira os dados da primeira carta 1:\n");
 
